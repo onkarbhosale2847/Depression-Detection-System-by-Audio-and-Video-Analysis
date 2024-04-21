@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depression Questionnaire</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Depression Questionnaire</h1>
+        <div id="questionNumber" class="question-number"></div>
+        <div id="questions">
+            <!-- Questions -->
+            <!-- Question 1 -->
+            <div class="question" id="question1">
+                <p>How are you feeling today?</p>
+                <button id="startAnswerBtn1" onclick="startAnswer(1)">Start Answer</button>
+                <button id="endAnswerBtn1" onclick="endAnswer(1)" disabled>End Answer</button>
+            </div>
+            <!-- Question 2 -->
+            <div class="question" id="question2" style="display: none;">
+                <p>Have you been experiencing changes in your sleep patterns?</p>
+                <button id="startAnswerBtn2" onclick="startAnswer(2)">Start Answer</button>
+                <button id="endAnswerBtn2" onclick="endAnswer(2)" disabled>End Answer</button>
+            </div>
+            <!-- Question 3 -->
+            <div class="question" id="question3" style="display: none;">
+                <p>Do you find it difficult to concentrate on tasks or make decisions?</p>
+                <button id="startAnswerBtn3" onclick="startAnswer(3)">Start Answer</button>
+                <button id="endAnswerBtn3" onclick="endAnswer(3)" disabled>End Answer</button>
+            </div>
+            <!-- Question 4 -->
+            <div class="question" id="question4" style="display: none;">
+                <p>Have you lost interest in activities that you used to enjoy?</p>
+                <button id="startAnswerBtn4" onclick="startAnswer(4)">Start Answer</button>
+                <button id="endAnswerBtn4" onclick="endAnswer(4)" disabled>End Answer</button>
+            </div>
+            <!-- Question 5 -->
+            <div class="question" id="question5" style="display: none;">
+                <p>Are you experiencing changes in your appetite or weight?</p>
+                <button id="startAnswerBtn5" onclick="startAnswer(5)">Start Answer</button>
+                <button id="endAnswerBtn5" onclick="endAnswer(5)" disabled>End Answer</button>
+            </div>
+            <!-- Question 6 -->
+            <div class="question" id="question6" style="display: none;">
+                <p>Do you feel hopeless or worthless?</p>
+                <button id="startAnswerBtn6" onclick="startAnswer(6)">Start Answer</button>
+                <button id="endAnswerBtn6" onclick="endAnswer(6)" disabled>End Answer</button>
+            </div>
+            <!-- Question 7 -->
+            <div class="question" id="question7" style="display: none;">
+                <p>Have you had thoughts of harming yourself or ending your life?</p>
+                <button id="startAnswerBtn7" onclick="startAnswer(7)">Start Answer</button>
+                <button id="endAnswerBtn7" onclick="endAnswer(7)" disabled>End Answer</button>
+            </div>
+            <!-- Question 8 -->
+            <div class="question" id="question8" style="display: none;">
+                <p>Do you feel more irritable or agitated than usual?</p>
+                <button id="startAnswerBtn8" onclick="startAnswer(8)">Start Answer</button>
+                <button id="endAnswerBtn8" onclick="endAnswer(8)" disabled>End Answer</button>
+            </div>
+            <!-- Question 9 -->
+            <div class="question" id="question9" style="display: none;">
+                <p>Have you experienced physical symptoms such as headaches or stomachaches without any clear cause?</p>
+                <button id="startAnswerBtn9" onclick="startAnswer(9)">Start Answer</button>
+                <button id="endAnswerBtn9" onclick="endAnswer(9)" disabled>End Answer</button>
+            </div>
+            <!-- Question 10 -->
+            <div class="question" id="question10" style="display: none;">
+                <p>Have you withdrawn from social activities or isolated yourself from friends and family?</p>
+                <button id="startAnswerBtn10" onclick="startAnswer(10)">Start Answer</button>
+                <button id="endAnswerBtn10" onclick="endAnswer(10)" disabled>End Answer</button>
+            </div>
+        </div>
+        <div id="timer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

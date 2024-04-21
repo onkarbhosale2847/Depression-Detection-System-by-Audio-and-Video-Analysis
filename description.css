@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://assets.technologynetworks.com/production/dynamic/images/content/default/default-1280x720.webp?cb=8836545');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fixed background to prevent scrolling */
+    color: #fff; /* Set text color to white for better contrast */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px; /* Increased padding for better spacing */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for better readability */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Increased shadow for depth */
+    text-align: center;
+}
+
+h1 {
+    color: #ffd700; /* Golden color for headings */
+    font-size: 36px; /* Increased font size for heading */
+    margin-bottom: 30px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 18px; /* Increased font size for paragraphs */
+}
+
+button {
+    padding: 15px 30px; /* Increased padding for button */
+    font-size: 20px; /* Increased font size for button */
+    background-color: #4caf50; /* Green button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
